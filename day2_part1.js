@@ -24,7 +24,6 @@ How many passwords are valid according to their policies?
 
 const fs = require("fs");
 const readline = require('readline');
-const map = new Map();
 let validCount = 0;
 
 const readInterface = readline.createInterface({
